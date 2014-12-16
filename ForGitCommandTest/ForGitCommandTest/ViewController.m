@@ -26,6 +26,7 @@
     
     NSLog(@"contact");
     NSLog(@"contact1");
+    NSLog(@"contact2");
 }
 
 - (void)didReceiveMemoryWarning {
