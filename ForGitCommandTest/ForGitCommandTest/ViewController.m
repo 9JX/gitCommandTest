@@ -23,6 +23,9 @@
     NSLog(@"step4");
     NSLog(@"step5");
     NSLog(@"dev");
+    
+    NSLog(@"contact");
+    NSLog(@"contact1");
 }
 
 - (void)didReceiveMemoryWarning {
