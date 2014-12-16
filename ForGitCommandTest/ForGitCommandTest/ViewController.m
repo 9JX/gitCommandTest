@@ -22,6 +22,7 @@
     NSLog(@"step3");
     NSLog(@"step4");
     NSLog(@"step5");
+    NSLog(@"dev");
 }
 
 - (void)didReceiveMemoryWarning {
