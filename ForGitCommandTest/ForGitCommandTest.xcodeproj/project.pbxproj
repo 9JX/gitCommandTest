@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92E7FDE9F8F447D281AEE9D8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E79B122B41347D78B510ADA /* libPods.a */; };
+		A97726DE1A481D3C00A0442E /* bg_chris.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A97726D21A481D3C00A0442E /* bg_chris.m4a */; };
+		A97726DF1A481D3C00A0442E /* cris_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = A97726D31A481D3C00A0442E /* cris_bg.png */; };
+		A97726E01A481D3C00A0442E /* heart_1.png in Resources */ = {isa = PBXBuildFile; fileRef = A97726D41A481D3C00A0442E /* heart_1.png */; };
+		A97726E11A481D3C00A0442E /* heart_2.png in Resources */ = {isa = PBXBuildFile; fileRef = A97726D51A481D3C00A0442E /* heart_2.png */; };
+		A97726E21A481D3C00A0442E /* heart_3.png in Resources */ = {isa = PBXBuildFile; fileRef = A97726D61A481D3C00A0442E /* heart_3.png */; };
+		A97726E31A481D3C00A0442E /* heart_4.png in Resources */ = {isa = PBXBuildFile; fileRef = A97726D71A481D3C00A0442E /* heart_4.png */; };
+		A97726E41A481D3C00A0442E /* HeartView.m in Sources */ = {isa = PBXBuildFile; fileRef = A97726D91A481D3C00A0442E /* HeartView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A97726E51A481D3C00A0442E /* RightnowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A97726DB1A481D3C00A0442E /* RightnowViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A97726E61A481D3C00A0442E /* TellHeartView.m in Sources */ = {isa = PBXBuildFile; fileRef = A97726DD1A481D3C00A0442E /* TellHeartView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A9F57E7C1A3ED58F008F4744 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F57E7B1A3ED58F008F4744 /* main.m */; };
 		A9F57E7F1A3ED58F008F4744 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F57E7E1A3ED58F008F4744 /* AppDelegate.m */; };
 		A9F57E821A3ED58F008F4744 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F57E811A3ED58F008F4744 /* ViewController.m */; };
@@ -27,6 +37,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E79B122B41347D78B510ADA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A97726D21A481D3C00A0442E /* bg_chris.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = bg_chris.m4a; sourceTree = "<group>"; };
+		A97726D31A481D3C00A0442E /* cris_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cris_bg.png; sourceTree = "<group>"; };
+		A97726D41A481D3C00A0442E /* heart_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart_1.png; sourceTree = "<group>"; };
+		A97726D51A481D3C00A0442E /* heart_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart_2.png; sourceTree = "<group>"; };
+		A97726D61A481D3C00A0442E /* heart_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart_3.png; sourceTree = "<group>"; };
+		A97726D71A481D3C00A0442E /* heart_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart_4.png; sourceTree = "<group>"; };
+		A97726D81A481D3C00A0442E /* HeartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeartView.h; sourceTree = "<group>"; };
+		A97726D91A481D3C00A0442E /* HeartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeartView.m; sourceTree = "<group>"; };
+		A97726DA1A481D3C00A0442E /* RightnowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightnowViewController.h; sourceTree = "<group>"; };
+		A97726DB1A481D3C00A0442E /* RightnowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightnowViewController.m; sourceTree = "<group>"; };
+		A97726DC1A481D3C00A0442E /* TellHeartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TellHeartView.h; sourceTree = "<group>"; };
+		A97726DD1A481D3C00A0442E /* TellHeartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TellHeartView.m; sourceTree = "<group>"; };
 		A9F57E761A3ED58F008F4744 /* ForGitCommandTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForGitCommandTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9F57E7A1A3ED58F008F4744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9F57E7B1A3ED58F008F4744 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +63,7 @@
 		A9F57E8F1A3ED590008F4744 /* ForGitCommandTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForGitCommandTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9F57E941A3ED590008F4744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9F57E951A3ED590008F4744 /* ForGitCommandTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForGitCommandTestTests.m; sourceTree = "<group>"; };
+		B6B8456C3511432082B43725 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92E7FDE9F8F447D281AEE9D8 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +91,8 @@
 				A9F57E781A3ED58F008F4744 /* ForGitCommandTest */,
 				A9F57E921A3ED590008F4744 /* ForGitCommandTestTests */,
 				A9F57E771A3ED58F008F4744 /* Products */,
+				B6B8456C3511432082B43725 /* Pods.xcconfig */,
+				C5C846300C1E46D0B83EA7C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +112,18 @@
 				A9F57E7E1A3ED58F008F4744 /* AppDelegate.m */,
 				A9F57E801A3ED58F008F4744 /* ViewController.h */,
 				A9F57E811A3ED58F008F4744 /* ViewController.m */,
+				A97726D21A481D3C00A0442E /* bg_chris.m4a */,
+				A97726D31A481D3C00A0442E /* cris_bg.png */,
+				A97726D41A481D3C00A0442E /* heart_1.png */,
+				A97726D51A481D3C00A0442E /* heart_2.png */,
+				A97726D61A481D3C00A0442E /* heart_3.png */,
+				A97726D71A481D3C00A0442E /* heart_4.png */,
+				A97726D81A481D3C00A0442E /* HeartView.h */,
+				A97726D91A481D3C00A0442E /* HeartView.m */,
+				A97726DA1A481D3C00A0442E /* RightnowViewController.h */,
+				A97726DB1A481D3C00A0442E /* RightnowViewController.m */,
+				A97726DC1A481D3C00A0442E /* TellHeartView.h */,
+				A97726DD1A481D3C00A0442E /* TellHeartView.m */,
 				A9F57E831A3ED58F008F4744 /* Main.storyboard */,
 				A9F57E861A3ED58F008F4744 /* Images.xcassets */,
 				A9F57E881A3ED58F008F4744 /* LaunchScreen.xib */,
@@ -119,6 +158,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C5C846300C1E46D0B83EA7C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E79B122B41347D78B510ADA /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9F57E991A3ED590008F4744 /* Build configuration list for PBXNativeTarget "ForGitCommandTest" */;
 			buildPhases = (
+				8435F83DEE9F4FF49CE1253E /* Check Pods Manifest.lock */,
 				A9F57E721A3ED58F008F4744 /* Sources */,
 				A9F57E731A3ED58F008F4744 /* Frameworks */,
 				A9F57E741A3ED58F008F4744 /* Resources */,
+				ABF1095735994885B7FD5F8D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,9 +248,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A97726E01A481D3C00A0442E /* heart_1.png in Resources */,
 				A9F57E851A3ED58F008F4744 /* Main.storyboard in Resources */,
+				A97726DE1A481D3C00A0442E /* bg_chris.m4a in Resources */,
 				A9F57E8A1A3ED58F008F4744 /* LaunchScreen.xib in Resources */,
+				A97726E21A481D3C00A0442E /* heart_3.png in Resources */,
 				A9F57E871A3ED58F008F4744 /* Images.xcassets in Resources */,
+				A97726E31A481D3C00A0442E /* heart_4.png in Resources */,
+				A97726E11A481D3C00A0442E /* heart_2.png in Resources */,
+				A97726DF1A481D3C00A0442E /* cris_bg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,14 +269,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8435F83DEE9F4FF49CE1253E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ABF1095735994885B7FD5F8D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A9F57E721A3ED58F008F4744 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A9F57E821A3ED58F008F4744 /* ViewController.m in Sources */,
+				A97726E41A481D3C00A0442E /* HeartView.m in Sources */,
 				A9F57E7F1A3ED58F008F4744 /* AppDelegate.m in Sources */,
 				A9F57E7C1A3ED58F008F4744 /* main.m in Sources */,
+				A97726E61A481D3C00A0442E /* TellHeartView.m in Sources */,
+				A97726E51A481D3C00A0442E /* RightnowViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,9 +432,11 @@
 		};
 		A9F57E9A1A3ED590008F4744 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6B8456C3511432082B43725 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ForGitCommandTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -351,9 +444,11 @@
 		};
 		A9F57E9B1A3ED590008F4744 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6B8456C3511432082B43725 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ForGitCommandTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +507,7 @@
 				A9F57E9B1A3ED590008F4744 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9F57E9C1A3ED590008F4744 /* Build configuration list for PBXNativeTarget "ForGitCommandTestTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +516,7 @@
 				A9F57E9E1A3ED590008F4744 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "RightnowViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    RightnowViewController * rightnowVC = [[RightnowViewController alloc] init];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    self.window.rootViewController = rightnowVC;
+    self.window.backgroundColor = [UIColor whiteColor];
+    [_window makeKeyAndVisible];
+    
+    
     return YES;
 }
 

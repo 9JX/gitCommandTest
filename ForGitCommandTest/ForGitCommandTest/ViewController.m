@@ -30,7 +30,8 @@
     
     NSLog(@"about1");
     NSLog(@"about2");
-    NSLog(@"hello about");
+	NSLog(@"hello about");
+    NSLog(@"hello about2");
 }
 
 - (void)didReceiveMemoryWarning {
